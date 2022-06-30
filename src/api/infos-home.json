@@ -1,0 +1,26 @@
+{
+    "surf": {
+        "icon": "/src/assets/surf.svg",
+        "title": "surf"
+    },
+
+    "cocktail": {
+        "icon": "/src/assets/cocktail.svg",
+        "title": "vida noturna"
+    },
+
+    "building": {
+        "icon": "/src/assets/building.svg",
+        "title": "moderno"
+    },
+
+    "museum": {
+        "icon": "/src/assets/museum.svg",
+        "title": "clássico"
+    },
+
+    "earth": {
+        "icon": "/src/assets/earth.svg",
+        "title": "e mais..."
+    }
+}
