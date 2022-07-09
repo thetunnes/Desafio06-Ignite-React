@@ -1,26 +1,31 @@
 {
     "surf": {
         "icon": "/src/assets/surf.svg",
+        "elipse": "/src/assets/Ellipse.svg",
         "title": "surf"
     },
 
     "cocktail": {
         "icon": "/src/assets/cocktail.svg",
+        "elipse": "/src/assets/Ellipse.svg",
         "title": "vida noturna"
     },
 
     "building": {
         "icon": "/src/assets/building.svg",
+        "elipse": "/src/assets/Ellipse.svg",
         "title": "moderno"
     },
 
     "museum": {
         "icon": "/src/assets/museum.svg",
+        "elipse": "/src/assets/Ellipse.svg",
         "title": "clássico"
     },
 
     "earth": {
         "icon": "/src/assets/earth.svg",
+        "elipse": "/src/assets/Ellipse.svg",
         "title": "e mais..."
     }
 }

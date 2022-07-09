@@ -1,0 +1,19 @@
+{
+  "continents": {
+    "europe": {
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "img": "/assets/banner/banner-page-europe.png",
+      "title": "Europa"
+    },
+    "asia": {
+      "description": "A Ásia é, por convenção, um dos seis continentes do mundo. É um continente com culturas e paisagens únicas e divinas.",
+      "img": "/assets/banner/banner-page-asia.png",
+      "title": "Ásia"
+    },
+    "america": {
+      "description": "A América é, por convenção, um dos seis continentes do mundo. É um continente com clima tropical, com florestas e praias maravilhosas ótima região para turismo no verão Ocidental.",
+      "img": "/assets/banner/banner-page-america-sul.png",
+      "title": "América do Sul"
+    }
+  }
+}
