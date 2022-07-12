@@ -23,7 +23,7 @@ export default function Home() {
   });
 
   return (
-    <Box w="100%" backgroundColor="gray.50">
+    <Box w="100%" backgroundColor="#F5F8FA">
       <Header />
 
       <Box

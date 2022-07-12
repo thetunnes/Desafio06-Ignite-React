@@ -19,7 +19,7 @@ export default function SlideSwiper() {
   return (
     <Swiper navigation pagination modules={[Navigation]} style={styleSwiper}>
       <SwiperSlide>
-        <Link to="/continents/europe">
+        <Link to="/continent/europe">
           <Flex
             w="100%"
             h="100%"
@@ -39,7 +39,7 @@ export default function SlideSwiper() {
             >
               Europa
             </Text>
-            <Text color="whiteAlpha.900" fontSize={24} textAlign="center">
+            <Text color="whiteAlpha.900" fontWeight="bold" fontSize={24} textAlign="center">
               O Continente mais antigo.
             </Text>
           </Flex>
@@ -47,15 +47,15 @@ export default function SlideSwiper() {
       </SwiperSlide>
 
       <SwiperSlide>
-        <Link to="/continents/asia">
+        <Link to="/continent/asia">
           <Flex
             w="100%"
             h="430px"
-            objectFit="cover"
+            objectFit={{ lg: "cover", md: "fill", sm: "fill", xs: "fill"}}
             flexDir="column"
             bgImage={AsiaBanner}
             bgPos="center"
-            bgSize="100% 100%"
+            bgSize={{lg: "100% 100%", md: "100%"}}
             bgRepeat="no-repeat"
             alignItems="center"
             justifyContent="center"
@@ -70,14 +70,14 @@ export default function SlideSwiper() {
             >
               Ásia
             </Text>
-            <Text color="whiteAlpha.900" fontSize={24} textAlign="center">
+            <Text color="whiteAlpha.900" fontWeight="bold" fontSize={24} textAlign="center">
               O Continente mais populoso.
             </Text>
           </Flex>
         </Link>
       </SwiperSlide>
       <SwiperSlide>
-        <Link to="/continents/america">
+        <Link to="/continent/america">
           <Flex
             w="100%"
             h="430px"
@@ -99,7 +99,7 @@ export default function SlideSwiper() {
             >
               América do Sul
             </Text>
-            <Text color="whiteAlpha.900" fontSize={24} textAlign="center">
+            <Text color="whiteAlpha.900" fontWeight="bold" fontSize={24} textAlign="center">
               O Continente mais lindo.
             </Text>
           </Flex>

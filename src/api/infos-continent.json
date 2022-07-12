@@ -2,18 +2,70 @@
   "continents": {
     "europe": {
       "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-      "img": "/assets/banner/banner-page-europe.png",
-      "title": "Europa"
+      "img": "/src/assets/banners/banner-page-europe.png",
+      "title": "Europa",
+      "numbers": {
+        "countries": 50,
+        "lang": 24,
+        "mainCointries": 27
+      },
+      "citiesInCountry": {
+        "londres": {
+          "country": "Reino Unido",
+          "flag": "/src/assets/bgCities/europe/flag-londres.svg",
+          "bg": "/src/assets/bgCities/europe/img-londres.png"
+        },
+        "paris": {
+          "country": "França",
+          "flag": "/src/assets/bgCities/europe/flag-paris.svg",
+          "bg": "/src/assets/bgCities/europe/img-paris.png"
+        },
+        "amsterda": {
+          "country": "Holanda",
+          "flag": "/src/assets/bgCities/europe/flag-amsterda.svg",
+          "bg": "/src/assets/bgCities/europe/img-amsterda.png"
+        },
+        "roma": {
+          "country": "Itália",
+          "flag": "/src/assets/bgCities/europe/flag-roma.svg",
+          "bg": "/src/assets/bgCities/europe/img-roma.png"
+        },
+        "praga": {
+          "country": "República Tcheca",
+          "flag": "/src/assets/bgCities/europe/flag-praga.svg",
+          "bg": "/src/assets/bgCities/europe/img-praga.png"
+        }
+        
+      }
+
     },
     "asia": {
       "description": "A Ásia é, por convenção, um dos seis continentes do mundo. É um continente com culturas e paisagens únicas e divinas.",
-      "img": "/assets/banner/banner-page-asia.png",
-      "title": "Ásia"
+      "img": "/src/assets/banners/banner-page-asia.png",
+      "title": "Ásia",
+      "numbers": {
+        "countries": 50,
+        "lang": 24,
+        "mainCointries": 27
+      }
     },
     "america": {
       "description": "A América é, por convenção, um dos seis continentes do mundo. É um continente com clima tropical, com florestas e praias maravilhosas ótima região para turismo no verão Ocidental.",
-      "img": "/assets/banner/banner-page-america-sul.png",
-      "title": "América do Sul"
+      "img": "/src/assets/banners/banner-page-america-sul.png",
+      "title": "América do Sul",
+      "numbers": {
+        "countries": 50,
+        "lang": 24,
+        "mainCointries": 27
+      },
+      "citiesInCountry": {
+        "brasil": {
+          "country": "Rio de Janeiro",
+          "flag": "/src/assets/bgCities/america/flag-brasil.svg",
+          "bg": "/src/assets/bgCities/america/img-rj.jpg"
+        }
+      }
+
     }
   }
 }
